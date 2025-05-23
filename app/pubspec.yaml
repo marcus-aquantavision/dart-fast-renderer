@@ -1,0 +1,14 @@
+name: render_benchmark
+description: Benchmark PNG vs ui.Image rendering
+version: 1.0.0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  texture_rgba_renderer: ^0.0.16
+  ffi: ^2.1.0
+
+flutter:
+  uses-material-design: true
