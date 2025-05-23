@@ -20,8 +20,8 @@ class TextureRgbaDemo extends StatefulWidget {
 }
 
 class _TextureRgbaDemoState extends State<TextureRgbaDemo> {
-  static const int width = 320;
-  static const int height = 240;
+  static const int width = 1028;
+  static const int height = 768;
   static const int bytesPerPixel = 4;
 
   final _plugin = TextureRgbaRenderer();
